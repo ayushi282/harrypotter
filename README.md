@@ -1,70 +1,24 @@
-# Getting Started with Create React App
+Create a simple single page application that acts as an index/catalog of Spells from the Harry Potter API (https://docs.potterdb.com/apis/rest)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application should contain a page that shows all the Spells, with search and pagination (the API contains around 312 spells)
 
-## Available Scripts
+The list can contain some basic details of the vehicle, such as model, vehicle class and cost
 
-In the project directory, you can run:
+(Optionally, you may also implement an option to filter the spells by category)
 
-### `npm start`
+When you click on a particular spell, it should show the details of the selected spell (this can be in the form of a pop-up modal, or a separate page)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The details should include at least: name, category, effect, incantation, creator and a link to the wiki (you may use the other fields/data provided by the API as/if you want)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+You may choose to design the app in your own way, and there are no restrictions for the technologies you can use.
 
-### `npm test`
+But here are some suggestions for your consideration:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- Frontend framework/library: React / Angular / Vue / Svelte / Next, etc.
 
-### `npm run build`
+- Design system: Patternfly / Material / Fluent Design / Carbon, / Bootstrap etc.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The base url for the graphql API is:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+https://api.potterdb.com/v1/spells
