@@ -10,14 +10,6 @@ When you click on a particular spell, it should show the details of the selected
 
 The details should include at least: name, category, effect, incantation, creator and a link to the wiki (you may use the other fields/data provided by the API as/if you want)
 
-You may choose to design the app in your own way, and there are no restrictions for the technologies you can use.
-
-But here are some suggestions for your consideration:
-
-- Frontend framework/library: React / Angular / Vue / Svelte / Next, etc.
-
-- Design system: Patternfly / Material / Fluent Design / Carbon, / Bootstrap etc.
-
 
 The base url for the graphql API is:
 
